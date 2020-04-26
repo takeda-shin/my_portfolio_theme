@@ -23,11 +23,7 @@ body {
   width: 100%;
   padding: 20px 150px;
   color: #fff;
-  overflow:auto;
   vertical-align: middle;
-  /* position: fixed;
-  top: 0px;
-  left: 0px; */
   background: url('../images/bg.jpg') no-repeat fixed right top;
 }
 
@@ -157,6 +153,3 @@ body {
   margin-top:28px;
   color: #fff;
 }
-
-
-/* 上記まで */
