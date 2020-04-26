@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+/* header */
+
+.header {
+  height: 120px;
+  width: 100%;
+  padding: 20px 150px;
+  color: #fff;
+  overflow:auto;
+  vertical-align: middle;
+  /* position: fixed;
+  top: 0px;
+  left: 0px; */
+  background: url('../images/bg.jpg') no-repeat fixed right top;
+}
+
+.site-title {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 5px;
+  float: left;
+  line-height: 80px;
+}
+
+.buttons {
+  display: inline-block;
+  padding: 30px 0;
+  float: right;
+}
+
+.button {
+  display: inline-block;
+  margin: 0 30px 0 10px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  position: relative;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button::after {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+  transition: all 0.3s ease 0s;
+}
+.button:hover::after {
+  width: 100%;
+}
+
+/* about */
+
+.about {
+  padding: 60px 20% 100px;
+  background-color: #fff;
+  color: #333;
+  overflow: hidden;
+}
+
+.heading {
+  margin: 15px 0 15px;
+  letter-spacing: 2px;
+  font-size: 4rem;
+}
+
+.about-cal {
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-cal-image {
+  margin: 100px 0;
+}
+
+.about-icon {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.icon-img {
+  border-radius: 50%;
+}
+
+.about-info {
+  list-style: none;
+  font-size: 1.8rem;
+  text-align: left;
+
+}
+.about-info-title {
+  font-weight: bold;
+}
+
+.about-info-content {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+/* footer */
+
+
+.footer {
+  height: 100px;
+  padding: 20px 150px;
+  font-size: 1.3rem;
+  background: url('../images/bg.jpg') no-repeat fixed right top;
+  position: relative;
+}
+
+.buttons-footer {
+  padding: 0;
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  float: none;
+}
+
+.button-footer {
+  font-size: 1.5rem;
+}
+
+.copyright {
+  margin-top:28px;
+  color: #fff;
+}
+
+
+/* 上記まで */
