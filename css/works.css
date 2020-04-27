@@ -1,0 +1,56 @@
+
+
+/* work */
+
+.contents {
+  padding: 60px 20% 100px;
+  background-color: #fff;
+  color: #333;
+  overflow: hidden;
+}
+
+.heading {
+  margin: 15px 0 15px;
+  letter-spacing: 2px;
+  font-size: 4rem;
+}
+
+.works {
+  width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.work {
+  margin-top: 50px;
+}
+
+.work-infos {
+  padding: 0;
+  overflow: hidden;
+}
+
+.work-info {
+  list-style: none;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.work-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.work-link {
+  display: inline-block;
+  float: left;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #87ceeb;
+  padding: 5px 20px;
+  margin: 10px;
+  border-radius: 5px;;
+}
