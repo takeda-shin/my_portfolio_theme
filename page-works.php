@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="YTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <title>ポートフォリオ</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/header-footer.css">
-  <link rel="stylesheet" href="css/works.css">
-
-</head>
-<body>
-
-  <header class="header">
-    <a class="site-title" href="#">SHINYA TAKEDA</a>
-    <div class="buttons">
-      <a class="button" href="#about">ABOUT</a>
-      <a class="button" href="#about">WORKS</a>
-      <a class="button" href="#hello">CONTACT</a>
-    </div>
-  </header>
+<?php get_header(); ?>
 
   <section class="contents">
     <h2 class="heading">WORKS</h2>
@@ -28,21 +6,21 @@
       <div class="work">
         <ul class="work-infos">
           <li class="work-info work-title" >ポートフォリオ（本サイト）</li>
-          <li class="work-info work-date" >【制作】2020年4月</li>
-          <li class="work-info work-img"><img src="<?php bloginfo('template_directory'); ?>images/portfolio.png" alt="ポートフォリオ" height=480px width=800px></li>
+          <li class="work-info work-img"><img src="<?php echo get_template_directory_uri(); ?>/images/portfolio.png" alt="ポートフォリオ" height=480px width=800px></li>
+          <li class="work-info work-date" >【開発】2020年4月</li>
           <li class="work-info work-purpose" >【概要】転職活動を目的とした自身のポートフォリオサイト</li>
           <li class="work-info work-purpose" >【開発目的】ポートフォリオサイトの制作、WordPressを用いたWebサイト開発経験</li>
-          <li class="work-info work-env" >【開発環境】言語：HTML,CSS,PHP,JavaScript、ツール：WordPress、OS：Mac、DB：MySQL、サーバー：Xserver</li>
-          <li class="work-info work-device">【学び】WordPressのオリジナルテーマの制作・導入方法</li>
-          <li class="work-info work-link"><a class="link" href="#">Link</a></li>
+          <li class="work-info work-env" >【開発環境】言語：HTML,CSS,PHP,JavaScript、ツール：WordPress,FileZilla、OS：Mac、DB：MySQL、サーバー：Xserver</li>
+          <li class="work-info work-device">【学び】WordPressのオリジナルテーマの制作・導入方法、FTPサーバーの利用</li>
+          <li class="work-info work-link"><a class="link" href="<?php echo home_url('/'); ?>">Link</a></li>
           <li class="work-info work-link"><a class="link" href="https://github.com/takeda-shin/my_portfolio_theme">GitHub</a></li>
         </ul>
       </div>
       <div class="work">
         <ul class="work-infos">
           <li class="work-info work-title" >MyPortfolio</li>
-          <li class="work-info work-date" >【制作】2020年3月</li>
-          <li class="work-info work-img"><img src="<?php bloginfo('template_directory'); ?>images/myportfolio.png" alt="MyPortfolio" height=480px width=800px></li>
+          <li class="work-info work-img"><img src="<?php echo get_template_directory_uri(); ?>/images/myportfolio.png" alt="MyPortfolio" height=480px width=800px></li>
+          <li class="work-info work-date" >【開発】2020年3月</li>
           <li class="work-info work-purpose" >【概要】自分専用のポートフォリオサイトを誰でもすぐに作れるアプリ</li>
           <li class="work-info work-purpose" >【開発目的】PHPおよびLaravelを用いた開発経験、herokuの利用</li>
           <li class="work-info work-env" >【開発環境】言語：HTML,CSS,PHP、ツール：Laravel、OS：Mac、DB：MySQL、サーバー：heroku</li>
@@ -53,9 +31,9 @@
       </div>
       <div class="work">
         <ul class="work-infos">
-          <li class="work-info work-title" >フリマアプリのサイト</li>
-          <li class="work-info work-date" >【制作】2019年12月〜2020年2月</li>
-          <li class="work-info work-img"><img src="<?php bloginfo('template_directory'); ?>/images/freemarket.png" alt="フリマサイト" height=480px width=800px></li>
+          <li class="work-info work-title" >フリマアプリのクローンサイト</li>
+          <li class="work-info work-img"><img src="<?php echo get_template_directory_uri(); ?>/images/freemarket.png" alt="ポートフォリオ" height=480px width=800px></li>
+          <li class="work-info work-date" >【開発】2019年12月〜2020年2月</li>
           <li class="work-info work-purpose" >【概要】TECH:CAMP卒業課題　某フリマアプリの機能を調査、クローンサイトを制作</li>
           <li class="work-info work-purpose" >【開発目的】アジャイル方式・チーム開発の経験、学習内容の定着</li>
           <li class="work-info work-purpose" >【担当】スクラムマスター、デプロイ、ユーザー新規登録・ログイン機能、商品購入機能</li>
@@ -68,8 +46,8 @@
       <div class="work">
         <ul class="work-infos">
           <li class="work-info work-title" >ChatSpace</li>
-          <li class="work-info work-date" >【制作】2019年11月</li>
-          <li class="work-info work-img"><img src="<?php bloginfo('template_directory'); ?>/images/chatspace.png" alt="ChatSpace" height=480px width=800px></li>
+          <li class="work-info work-img"><img src="<?php echo get_template_directory_uri(); ?>/images/chatspace.png" alt="ポートフォリオ" height=480px width=800px></li>
+          <li class="work-info work-date" >【開発】2019年11月</li>
           <li class="work-info work-purpose" >【概要】TECH ;CAMP課題　チャットアプリケーション</li>
           <li class="work-info work-purpose" >【開発目的】マークアップからバックエンドまで総合的なスキルの習得</li>
           <li class="work-info work-env" >【開発環境】言語：Haml,Scss,PHP,JavaScript、ツール：Ruby on Rails、OS：Mac、DB：MySQL、サーバー：AWS</li>
@@ -81,14 +59,4 @@
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="buttons buttons-footer">
-      <a class="button button-footer" href="#about">ABOUT</a>
-      <a class="button button-footer" href="#works">WORKS</a>
-      <a class="button button-footer" href="#contact">CONTACT</a>
-    </div>
-    <p class="copyright">© SHINYA TAKEDA portfolio</p>
-  </footer>
-
-</body>
-</html>
+<?php get_footer(); ?>

@@ -37,9 +37,10 @@
 }
 
 .work-title {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
+
 .work-link {
   display: inline-block;
   float: left;
@@ -52,5 +53,5 @@
   background-color: #87ceeb;
   padding: 5px 20px;
   margin: 10px;
-  border-radius: 5px;;
+  border-radius: 5px;
 }
