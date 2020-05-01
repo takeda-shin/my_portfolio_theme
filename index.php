@@ -40,10 +40,11 @@
   <header class="header">
     <p class="site-title-sub">"Young Lion" Engineer</p>
     <h1 class="site-title">SHINYA TAKEDA</h1>
-    <div class="buttons">
-      <a class="button" href="<?php echo home_url('about'); ?>">ABOUT</a>
-      <a class="button" href="<?php echo home_url('works'); ?>">WORKS</a>
-      <a class="button" href="<?php echo home_url('/'); ?>#contact">CONTACT</a>
+    <p class="site-title-sub site-title-under">Welcome to my Portfolio!</p>
+    <div class="buttons header-buttons">
+      <a class="button header-button" href="<?php echo home_url('about'); ?>">ABOUT</a>
+      <a class="button header-button" href="<?php echo home_url('works'); ?>">WORKS</a>
+      <a class="button header-button" href="<?php echo home_url('/'); ?>#contact">CONTACT</a>
     </div>
   </header>
 

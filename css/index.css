@@ -41,6 +41,10 @@ body {
   letter-spacing: 5px;
 }
 
+.site-title-under {
+  display: none;
+}
+
 .buttons {
   padding: 80px 0 100px;
 }
@@ -509,13 +513,24 @@ body {
     width: 80%;
     margin: 10px auto;
   }
+
+  .site-title-under {
+    display: inline;
+    margin: 30px 0 150px;
+  }
+  
   .site-title {
     margin-top: 35px;
+    margin-bottom: 35px;
     font-size: 5rem;
   }
 
   .header-button {
     display: none;
+  }
+
+  .site-title-under {
+    display: inline;
   }
 
 
@@ -530,4 +545,39 @@ body {
   .button-more {
     font-size: 1.8rem;
   }
+
+  /* skill */
+
+  .skill-wrapper, 
+  .skill-box {
+    display: block;
+  }
+
+
+  .skills-wrapper:last-child {
+    margin-top: 0;
+  }
+
+  .skill-box {
+    margin: 40px auto;
+  }
+
+  .skill-box:nth-of-type(1) {
+    margin-top: 0;
+  }
+
+  .skill-icon,
+  .skill-icon::before {
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    line-height: 92px;
+  }
+
+  .skill-text {
+    margin: 0;
+    font-size: 1.4rem;
+  }
+
+
 }
