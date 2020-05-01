@@ -513,4 +513,21 @@ body {
     margin-top: 35px;
     font-size: 5rem;
   }
+
+  .header-button {
+    display: none;
+  }
+
+
+  /* about */
+
+  .about-text {
+    margin: 30px 10px;
+    line-height: 1.8;
+    font-size: 1.3rem;
+  }
+
+  .button-more {
+    font-size: 1.8rem;
+  }
 }
