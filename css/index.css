@@ -27,10 +27,10 @@ body {
   padding: 170px 150px 80px;
   text-align: left;
   background: url('../images/bg2.jpg') no-repeat fixed left bottom;
- }
+}
  
 .site-title-sub {
-  margin: 150px 0 30px 0px;
+  margin: 150px 0 30px;
   letter-spacing: 1px;
   font-size: 3rem;
 }
@@ -341,14 +341,65 @@ body {
   pointer-events: auto;
 }
 
+
+
+
+
+
+
+/* --------------------------------
+ * tablet
+ * -------------------------------- */
+
+@media screen and (max-width: 1179px) {
+
+  body {
+    font-size: 1.3rem;
+    background: url('../images/bg-sp.jpg') fixed left top;
+  }
+
+
+  .header {
+    text-align: center;
+    background: none;
+  }
+
+  .works {
+    background: none;
+  }
+
+  .contact {
+    background: none;
+  }
+}
+
+
+
+
+
+
+
+
 /* --------------------------------
  * smart phone
  * -------------------------------- */
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   body {
     font-size: 1.3rem;
+    background: url('../images/bg-sp.jpg') no-repeat fixed left top;
+  }
+  body::before {
+    content: "";
+    background: url('../images/bg-sp.jpg') no-repeat left top;
+    background-size: 100% auto;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: -1; 
   }
   .heading {
     margin-top: 20px;
@@ -366,7 +417,7 @@ body {
     width: 100vw;
     padding:10px;
     position: fixed;
-    background: url('../images/bg2.jpg') no-repeat fixed left bottom;
+    background: url('../images/bg-sp.jpg') no-repeat left top;
     z-index: 99;
   }
 
@@ -439,7 +490,7 @@ body {
     width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
     max-width: 330px;/*最大幅（調整してください）*/
     height: 100%;
-    background: #6ec7eb;/*背景色*/
+    background: url('../images/bg-sp.jpg') no-repeat fixed left top;
     transition: .3s ease-in-out;/*滑らかに表示*/
     -webkit-transform: translateX(-105%);
     transform: translateX(-105%);/*左に隠しておく*/
@@ -503,10 +554,13 @@ body {
   .header {
     padding: 60px;
     text-align: center;
+    background: none;
   }
   .site-title-sub {
+    margin: 100px 0 30px;
     font-size: 1.7rem;
   }
+
   .site-title-sub::before,
   .site-title-sub::after {
     display: block;
@@ -537,13 +591,29 @@ body {
   /* about */
 
   .about-text {
-    margin: 30px 10px;
+    margin: 30px;
     line-height: 1.8;
     font-size: 1.3rem;
   }
 
   .button-more {
     font-size: 1.8rem;
+  }
+
+  /* works */
+  .works {
+    background: url('../images/bg-sp.jpg') no-repeat left top;
+  }
+
+  .swiper-container {
+    width: 75vw;
+    height: 45vh;
+    margin: 20px;
+  }
+
+  .mask:hover {
+    opacity:		1;	/* マスクを表示する */
+    padding-top:		18vh;	/* ホバーで下にずらす */
   }
 
   /* skill */
@@ -579,5 +649,41 @@ body {
     font-size: 1.4rem;
   }
 
+  /* contact */
+  .contact {
+    background: url('../images/bg-sp.jpg') no-repeat left top;
+  }
+
+  .wpcf7 {
+    width: 80vw;
+  }
+
+  /* footer */
+
+  .footer {
+    padding: 20px;
+    background: url('../images/bg-sp.jpg') no-repeat left top;
+  }
+
+  .buttons-footer {
+    padding: 0;
+    text-align: center;
+  }
+
+  .button-footer {
+    font-size: 1.3rem;
+    margin: 0 10px 0 10px;
+  }
+
+}
+
+/* --------------------------------
+ * smart phone　X
+ * -------------------------------- */
+
+@media (max-width: 400px) {
+  .site-title-sub {
+    margin-top: 150px;
+  }
 
 }

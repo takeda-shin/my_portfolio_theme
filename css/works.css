@@ -55,3 +55,53 @@
   margin: 10px;
   border-radius: 5px;
 }
+
+/* --------------------------------
+ * smart phone
+ * -------------------------------- */
+
+
+ @media (max-width: 767px) {
+
+  body {
+    font-size: 1.3rem;
+  }
+
+  section.contents {
+    padding: 60px 30px 100px;
+  }
+
+  section.contents h2 {
+    font-size: 3rem;
+  }
+
+  .heading {
+    margin-top: 20px;
+  }
+
+  .works {
+    width: 100%;
+  }
+
+  .work-info {
+    list-style: none;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .work-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  img {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin: 10px auto 10px;
+  }
+
+
+
+}

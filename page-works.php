@@ -6,7 +6,7 @@
       <div class="work">
         <ul class="work-infos">
           <li class="work-info work-title" >ポートフォリオ（本サイト）</li>
-          <li class="work-info work-img"><img src="<?php echo get_template_directory_uri(); ?>/images/portfolio.png" alt="ポートフォリオ" height=480px width=800px></li>
+          <li class="work-info"><img class="work-img" src="<?php echo get_template_directory_uri(); ?>/images/portfolio.png" alt="ポートフォリオ" height=480px width=800px></li>
           <li class="work-info work-date" >【開発】2020年4月</li>
           <li class="work-info work-purpose" >【概要】転職活動を目的とした自身のポートフォリオサイト</li>
           <li class="work-info work-purpose" >【開発目的】ポートフォリオサイトの制作、WordPressを用いたWebサイト開発経験</li>
@@ -19,7 +19,7 @@
       <div class="work">
         <ul class="work-infos">
           <li class="work-info work-title" >MyPortfolio</li>
-          <li class="work-info work-img"><img src="<?php echo get_template_directory_uri(); ?>/images/myportfolio.png" alt="MyPortfolio" height=480px width=800px></li>
+          <li class="work-info"><img class="work-img" src="<?php echo get_template_directory_uri(); ?>/images/myportfolio.png" alt="MyPortfolio" height=480px width=800px></li>
           <li class="work-info work-date" >【開発】2020年3月</li>
           <li class="work-info work-purpose" >【概要】自分専用のポートフォリオサイトを誰でもすぐに作れるアプリ</li>
           <li class="work-info work-purpose" >【開発目的】PHPおよびLaravelを用いた開発経験、herokuの利用</li>
@@ -32,7 +32,7 @@
       <div class="work">
         <ul class="work-infos">
           <li class="work-info work-title" >フリマアプリのクローンサイト</li>
-          <li class="work-info work-img"><img src="<?php echo get_template_directory_uri(); ?>/images/freemarket.png" alt="ポートフォリオ" height=480px width=800px></li>
+          <li class="work-info"><img class="work-img" src="<?php echo get_template_directory_uri(); ?>/images/freemarket.png" alt="ポートフォリオ" height=480px width=800px></li>
           <li class="work-info work-date" >【開発】2019年12月〜2020年2月</li>
           <li class="work-info work-purpose" >【概要】TECH:CAMP卒業課題　某フリマアプリの機能を調査、クローンサイトを制作</li>
           <li class="work-info work-purpose" >【開発目的】アジャイル方式・チーム開発の経験、学習内容の定着</li>
@@ -46,7 +46,7 @@
       <div class="work">
         <ul class="work-infos">
           <li class="work-info work-title" >ChatSpace</li>
-          <li class="work-info work-img"><img src="<?php echo get_template_directory_uri(); ?>/images/chatspace.png" alt="ポートフォリオ" height=480px width=800px></li>
+          <li class="work-info"><img class="work-img" src="<?php echo get_template_directory_uri(); ?>/images/chatspace.png" alt="ポートフォリオ" height=480px width=800px></li>
           <li class="work-info work-date" >【開発】2019年11月</li>
           <li class="work-info work-purpose" >【概要】TECH ;CAMP課題　チャットアプリケーション</li>
           <li class="work-info work-purpose" >【開発目的】マークアップからバックエンドまで総合的なスキルの習得</li>

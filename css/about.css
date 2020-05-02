@@ -41,7 +41,6 @@
   list-style: none;
   font-size: 1.8rem;
   text-align: left;
-
 }
 .about-info-title {
   font-weight: bold;
@@ -49,4 +48,62 @@
 
 .about-info-content {
   margin-bottom: 10px;
+}
+
+/* --------------------------------
+ * smart phone
+ * -------------------------------- */
+
+
+@media (max-width: 767px) {
+
+  body {
+    font-size: 1.3rem;
+  }
+
+  section.contents {
+    padding: 60px 30px 100px;
+  }
+
+  section.contents h2 {
+    font-size: 3rem;
+  }
+
+  .heading {
+    margin-top: 20px;
+  }
+
+  .about-cal {
+    width: 100%;
+    float: none;
+  }
+
+  .about-cal-image {
+    margin: 40px 0 20px;
+  }
+
+  .about-icon {
+    width: 200px;
+    height: 200px;
+  }
+
+  .icon-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-info-title {
+    margin-bottom: 5px;
+  }
+
+  .about-info {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .about-info-content {
+    margin-bottom: 20px;
+  }
+
 }
