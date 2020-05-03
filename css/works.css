@@ -57,6 +57,45 @@
 }
 
 /* --------------------------------
+ * tablet
+ * -------------------------------- */
+
+@media screen and (max-width: 1179px) {
+
+  body {
+    font-size: 1.3rem;
+    background: url('../images/bg-tb.jpg') no-repeat fixed left top;
+  }
+  body::before {
+    content: "";
+    background: url('../images/bg-tb.jpg') no-repeat left top;
+    background-size: 100% auto;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: -1; 
+  }
+
+  .works {
+    width: 100%;
+  }
+
+  .work-info {
+    margin-bottom: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto 10px;
+  }
+
+}
+
+/* --------------------------------
  * smart phone
  * -------------------------------- */
 
@@ -93,13 +132,6 @@
   .work-title {
     font-size: 1.8rem;
     text-align: center;
-  }
-
-  img {
-    width: 300px;
-    height: 180px;
-    display: block;
-    margin: 10px auto 10px;
   }
 
 

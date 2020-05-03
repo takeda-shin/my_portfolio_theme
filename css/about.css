@@ -51,6 +51,67 @@
 }
 
 /* --------------------------------
+ * tablet
+ * -------------------------------- */
+
+@media screen and (max-width: 1179px) {
+
+  body {
+    font-size: 1.3rem;
+    background: url('../images/bg-tb.jpg') no-repeat fixed left top;
+  }
+  body::before {
+    content: "";
+    background: url('../images/bg-tb.jpg') no-repeat left top;
+    background-size: 100% auto;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: -1; 
+  }
+
+  .heading {
+    margin-top: 20px;
+  }
+
+  .about-cal {
+    width: 100%;
+    float: none;
+  }
+
+  .about-cal-image {
+    margin: 40px 0 20px;
+  }
+
+  .about-icon {
+    width: 300px;
+    height: 300px;
+  }
+
+  .icon-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-info-title {
+    margin-bottom: 5px;
+  }
+
+  .about-info {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .about-info-content {
+    margin-bottom: 20px;
+  }
+
+}
+
+/* --------------------------------
  * smart phone
  * -------------------------------- */
 
