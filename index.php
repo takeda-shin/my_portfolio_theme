@@ -25,7 +25,7 @@
       <label class="nav-unshown" id="nav-close" for="nav-input"></label>
       <div id="nav-content">
         <ul class="asideList">
-          <li><a href="" class="top-button">TOP</a></li>
+          <li><a href="<?php echo home_url('/'); ?>" class="top-button">TOP</a></li>
           <li><a href="<?php echo home_url('about'); ?>" class="top-button">ABOUT</a></li>
           <li><a href="<?php echo home_url('works'); ?>" class="top-button">WORKS</a></li>
           <li><a href="#contact" class="top-button">CONTACT</a></li>
@@ -103,6 +103,14 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+
+      breakpoints: {
+        767: {
+          slidesPerView: 1,
+          spaceBetween: 0
+        }
+      },
+      
     })
     </script>
     <a class="button button-more" href="<?php echo home_url('works'); ?>">MORE</a>

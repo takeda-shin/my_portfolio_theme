@@ -1,48 +1,12 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="YTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <title>ポートフォリオ</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/swiper.min.css">
-  <script type="text/javascript" src="js/swiper.min.js"></script>
-</head>
-<body>
-
-  <!-- spnav -->
-
-  <header class="top-header">
-    <div id="nav-drawer">
-      <a class="top-site-title">SHINYA TAKEDA</a>
-      <input id="nav-input" type="checkbox" class="nav-unshown">
-      <label id="nav-open" for="nav-input"><span></span></label>
-      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-      <div id="nav-content">
-        <ul class="asideList">
-          <li><a href="" class="top-button">TOP</a></li>
-          <li><a href="" class="top-button">ABOUT</a></li>
-          <li><a href="" class="top-button">WORKS</a></li>
-          <li><a href="" class="top-button">CONTACT</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
-
-
-  <!-- spnav -->
+<?php get_header(); ?>
 
   <header class="header">
     <p class="site-title-sub">"Young Lion" Engineer</p>
     <h1 class="site-title">SHINYA TAKEDA</h1>
-    <p class="site-title-sub site-title-under">Welcome to my Portfolio!</p>
-    <div class="buttons header-buttons">
-      <a class="button header-button" href="#about">ABOUT</a>
-      <a class="button header-button" href="#about">WORKS</a>
-      <a class="button header-button" href="#contact">CONTACT</a>
+    <div class="buttons">
+      <a class="button" href="#about">ABOUT</a>
+      <a class="button" href="#about">WORKS</a>
+      <a class="button" href="#hello">CONTACT</a>
     </div>
   </header>
 
@@ -50,11 +14,11 @@
     <h2 class="heading">ABOUT</h2>
     <p class="about-text">
       ３０歳で「お金を稼げる（＝必要とされ続ける）スキルを持つ自分」になるため、エンジニアへの転職を決意。<br>
-      プログラミングスクール「TECH:CAMP」を2020年3月に卒業し、現在転職活動中。
+      プログラミングスクール「TECH:CAMP」を卒業し、現在転職活動中。
     </p>
     <p class="about-text">
       欲しいものは毎日の成長とその先にあるプロダクト。作りたいのは「一目で使い方がわかるモノ」。<br>
-      自分の成長が、自分と、家族と、たくさんの人の幸せに繋がる未来を信じ、スキルを磨き続けます。<br>
+      自分の成長が、自分と、家族と、たくさんの人の幸せに繋がる未来を信じて、スキルを磨き続けます。<br>
     </p>
     <a class="button button-more button-about" href="#about">MORE</a>
   </section>
@@ -65,22 +29,22 @@
       <div class="swiper-wrapper">
           <div class="swiper-slide slide1">
             <div class="mask">
-              <a class="caption"　href="">ポートフォリオ（本サイト）</a>
+              <a class="caption">It's fresh !</a>
             </div>
           </div>
           <div class="swiper-slide slide2">
             <div class="mask">
-              <a class="caption" href="">MyPortfolio</a>
+              <a class="caption">It's fresh !</a>
             </div>
           </div>
           <div class="swiper-slide slide3">
             <div class="mask">
-              <a class="caption" href="">フリマアプリのクローンサイト</a>
+              <a class="caption">It's fresh !</a>
             </div>
           </div>
           <div class="swiper-slide slide4">
             <div class="mask">
-              <a class="caption" href="">ChatSpace</a>
+              <a class="caption">It's fresh !</a>
             </div>
           </div>
       </div>
@@ -88,7 +52,7 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
     </div>
-    <script>
+    <!-- <script>
     var mySwiper = new Swiper ('.swiper-container', {
       effect: 'coverflow',
       slidesPerView: 2,
@@ -101,33 +65,8 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-
-      breakpoints: {
-        767: {
-          slidesPerView: 1,
-          spaceBetween: 0
-        }
-      },
-      
     })
-    // var mySwiper = new Swiper ('.swiper-container', {
-    //   loop: true,
-    //   slidesPerView: 2,
-    //   spaceBetween: 10,
-    //   centeredSlides : true,
-    //   pagination: '.swiper-pagination',
-    //   nextButton: '.swiper-button-next',
-    //   prevButton: '.swiper-button-prev',
-    //   breakpoints: {
-    //     767: {
-    //       slidesPerView: 1,
-    //       spaceBetween: 0
-    //     }
-    //   }
-    // })
-
-
-    </script>
+    </script> -->
     <a class="button button-more" href="#work">MORE</a>
   </section>
   
@@ -193,7 +132,7 @@
     </div>
   </section>
 
-  <section class="contact" id="contact">
+  <section class="contact">
     <h2 class="heading">CONTACT</h2>
     <form class="contact-form">
       <input type="text" name="name" placeholder="NAME">
@@ -206,14 +145,4 @@
     <a class="pageup__arr" href="#"></a>
   </div>
 
-  <footer class="footer">
-    <div class="buttons buttons-footer">
-      <a class="button button-footer" href="#about">ABOUT</a>
-      <a class="button button-footer" href="#works">WORKS</a>
-      <a class="button button-footer" href="#contact">CONTACT</a>
-    </div>
-    <p class="copyright">© SHINYA TAKEDA portfolio</p>
-  </footer>
-
-</body>
-</html>
+<?php get_footer(); ?>
